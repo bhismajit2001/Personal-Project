@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhismajit Sahu | Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <!-- Brand -->
+    <a class="navbar-brand brand-name" href="#">
+      <span class="first-letter">J</span>EET.
+    </a>
+
+    <!-- Toggler for small screens -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav Links + Dark/Light Toggle -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-3">
+          <button id="theme-toggle" class="btn btn-outline-light">🌙</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="d-flex align-items-center justify-content-center text-center fade-in-top">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left: Text -->
+      <div class="col-md-6 text-md-start mb-4 mb-md-0">
+        <h1 class="home-title">Hello, I'm <span class="text-danger">Bhismajit Sahu</span></h1>
+        <p class="home-summary mt-3">A passionate developer specialized in creating modern, responsive, and user-friendly web applications.</p>
+        <p class="home-role mt-2">Skilled in <span id="typewriter" class="text-danger"></span></p>
+
+        <!-- Buttons -->
+        <div class="mt-4">
+          <a href="#contact" class="btn btn-danger btn-lg me-3 hire-me-btn">Hire Me</a>
+          <a href="resume.pdf" download class="btn btn-outline-danger btn-lg download-cv-btn">Download CV</a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="social-icons mt-4">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <!-- Right: Image -->
+      <div class="col-md-6 text-center">
+        <img src="bhisma-img.1.jpg" alt="Bhismajit Sahu" class="profile-img img-fluid">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5 about-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Image Left -->
+      <div class="col-md-5 text-center mb-4 mb-md-0 fade-in-left">
+        <img src="bhisma-img.1.jpg" alt="Bhismajit Sahu" class="about-img img-fluid">
+      </div>
+
+      <!-- Text Right -->
+      <div class="col-md-7 about-text fade-in-right">
+        <h2 class="mb-3 text-danger">About Me</h2>
+        <p>Enthusiastic Full Stack Developer with experience in React.js and Java. Focused on clean UI/UX and scalable solutions.</p>
+
+        <h4 class="mt-4 text-danger">Education</h4>
+        <ul>
+          <li><strong>B.Tech:</strong> Biju Patnaik University of Technology, Rourkela (08/2019 - 08/2023) - Computer Science Engineering</li>
+          <li><strong>Intermediate:</strong> Khallikote Higher Secondary School, Berhampur (06/2017 - 05/2019) - Science (P.C.M.B)</li>
+          <li><strong>Matriculation:</strong> Korapalli High School, Korapalli Narayanpur (05/2016 - 05/2017)</li>
+        </ul>
+
+        <h4 class="mt-3 text-danger">Languages:</h4>
+        <p>Odia, Hindi, English</p>
+        <h4 class="mt-3 text-danger">Interests:</h4>
+        <p>Playing Cricket, Travelling, Drawing</p>
+
+        <h4 class="mt-3 text-danger">Certifications:</h4>
+        <p>UI/UX Full Stack Developer (Naresh It), Java Full Stack Developer (Skill Konnect)</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5 skills-section">
+  <div class="container">
+    <h2 class="mb-5 text-danger text-center fade-in-top">Skills</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4 fade-in-left">
+        <h4 class="text-danger">Front-end</h4>
+        <div class="skill">
+          <p>HTML5 / CSS3</p>
+          <div class="progress"><div class="progress-bar bg-success" data-value="90%">HTML5 / CSS3</div></div>
+        </div>
+        <div class="skill">
+          <p>JavaScript (ES6+)</p>
+          <div class="progress"><div class="progress-bar bg-info" data-value="85%">JavaScript</div></div>
+        </div>
+        <div class="skill">
+          <p>React.js</p>
+          <div class="progress"><div class="progress-bar bg-danger" data-value="80%">React.js</div></div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4 fade-in-right">
+        <h4 class="text-danger">Back-end</h4>
+        <div class="skill">
+          <p>Core Java</p>
+          <div class="progress"><div class="progress-bar bg-warning" data-value="75%">Core Java</div></div>
+        </div>
+        <div class="skill">
+          <p>Spring Boot</p>
+          <div class="progress"><div class="progress-bar bg-primary" data-value="70%">Spring Boot</div></div>
+        </div>
+        <div class="skill">
+          <p>Databases (MySQL, MongoDB)</p>
+          <div class="progress"><div class="progress-bar bg-secondary" data-value="65%">Databases</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5 fade-in-bottom">
+      <div class="col-12">
+        <h4 class="text-danger mb-3">Soft Skills</h4>
+        <ul class="soft-skills-list">
+          <li>Communication</li>
+          <li>Problem Solving</li>
+          <li>Teamwork</li>
+          <li>Time Management</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5 projects-section">
+  <div class="container">
+    <h2 class="mb-5 text-danger text-center fade-in-top">Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4 fade-in-left">
+        <div class="card h-100 shadow-sm">
+          <div class="card-header bg-danger text-white text-center">Personal Portfolio</div>
+          <div class="card-body"><p>Responsive personal portfolio using HTML, CSS, JS with clean UI/UX.</p></div>
+          <div class="card-footer text-center">
+            <a href="https://github.com/yourusername/portfolio" target="_blank" class="btn btn-outline-danger btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 fade-in-bottom">
+        <div class="card h-100 shadow-sm">
+          <div class="card-header bg-danger text-white text-center">Online Shopping Website</div>
+          <div class="card-body"><p>ReactJS e-commerce platform with products, filters, search, authentication.</p></div>
+          <div class="card-footer text-center">
+            <a href="https://github.com/yourusername/online-shopping" target="_blank" class="btn btn-outline-danger btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 fade-in-right">
+        <div class="card h-100 shadow-sm">
+          <div class="card-header bg-danger text-white text-center">Java Full Stack App</div>
+          <div class="card-body"><p>Full-stack Java app with Spring Boot backend and responsive frontend.</p></div>
+          <div class="card-footer text-center">
+            <a href="https://github.com/yourusername/java-fullstack-app" target="_blank" class="btn btn-outline-danger btn-sm">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 contact-section">
+  <div class="container">
+    <h2 class="mb-5 text-danger text-center fade-in-top">Contact Me</h2>
+    <div class="row">
+      <div class="col-md-5 mb-4 fade-in-left">
+        <h4 class="text-danger mb-3">Get in Touch</h4>
+        <p><i class="fas fa-envelope text-danger me-2"></i>Email: <a href="mailto:bhismajit2001@gmail.com">bhismajit2001@gmail.com</a></p>
+        <p><i class="fas fa-phone text-danger me-2"></i>Phone: <a href="tel:+919348394351">+91 9348394351</a></p>
+        <p><i class="fab fa-linkedin text-danger me-2"></i>LinkedIn: <a href="https://www.linkedin.com/in/bhismajit-sahu-6564092bb" target="_blank">View Profile</a></p>
+        <p><i class="fab fa-github text-danger me-2"></i>GitHub: <a href="https://github.com/" target="_blank">View Profile</a></p>
+        <h4 class="text-danger mt-4 mb-3">Location</h4>
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15226.00654181115!2d78.41834594999999!3d17.435688449999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1758732414319!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="col-md-7 fade-in-right">
+        <h4 class="text-danger mb-3">Send a Message</h4>
+        <form class="contact-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white py-4 footer-section">
+  <div class="container text-center">
+    <div class="mb-3">
+      <a href="https://www.linkedin.com/in/bhismajit-sahu-6564092bb" target="_blank" class="social-icon me-3"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/" target="_blank" class="social-icon me-3"><i class="fab fa-github"></i></a>
+      <a href="mailto:bhismajit2001@gmail.com" class="social-icon me-3"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+919348394351" class="social-icon"><i class="fas fa-phone"></i></a>
+    </div>
+    <p>&copy; 2025 Bhismajit Sahu | All Rights Reserved</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>
